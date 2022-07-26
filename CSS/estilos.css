@@ -1,5 +1,6 @@
 body {
-color: rgb(58, 57, 55);
+    background-color: rgb(14, 37, 30);
+    color: rgb(210, 30, 45);
     text-align: center;
     font-family: "Arial" ;
     font-size: 16px;
@@ -11,14 +12,26 @@ color: rgb(58, 57, 55);
 #cabecera
 {
     background: rgb(51, 255, 248);
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.5);
     color: black;
+    font-weight: 700;
     margin: 0;
     padding: 0.5;
 
 }
 
+#logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+#tagible
+{
+    padding: 0 0 0 1em;
+    font-weight: 400;
+    font-size: .8em;
 
-
+}
 #container
 {
     width: 70%;
@@ -31,4 +44,9 @@ color: rgb(58, 57, 55);
 #container h1 
 {
     font-size: 20px;
+}
+#post 
+{
+    background: #fff;
+    padding: 1em;
 }
